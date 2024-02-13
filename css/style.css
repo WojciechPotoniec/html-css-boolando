@@ -30,6 +30,7 @@ a {
 
 /* header */
 header {
+    /* position: fixed; */
     background-color: var(--color-header-bg);
     padding: 10px 0;
 }
@@ -37,11 +38,43 @@ header {
 /* main */
 section {
     background-color: var(--color-section-bg);
-    max-width: 300px;
+    max-width: 400px;
+}
+.card-image {
+    position: relative;
 }
 img {
     width: 100%;
-    position: relative;
+}
+
+#heart-box {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    font-size: 30px;
+}
+#heart {
+    text-align: center;
+}
+.discount {
+    background-color: red;
+    padding: 2px 6px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 45px;
+}
+.eco-green {
+    background-color: green;
+    padding: 2px 6px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
 }
 
 /* footer */
@@ -63,16 +96,12 @@ footer {
 .small-container {
     width: 100px;
 }
-.space-around {
-    justify-content: space-around;
+.space-between {
+    justify-content: space-between;
 }
 .color-text {
     color: white;
 }
-#heart-box {
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    position: absolute;
-    top: 0;
+.red-text {
+    color: red;
 }
