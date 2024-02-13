@@ -12,21 +12,67 @@
 :root {
     --color-header-bg: #ff6900;
 	--color-section-bg: #e7e7e5;
-	--color-main-bg: #ffffff;
 	--color-footer-bg: #1a1a1a;
 }
 body {
     font-family: "Lato", sans-serif;
     background-color: var(--color-main-bg);
 }
+ul {
+    list-style: none;
+}
+li, i {
+    padding: 0 5px;
+}
+a {
+    text-decoration: none;
+}
 
 /* header */
 header {
     background-color: var(--color-header-bg);
+    padding: 10px 0;
 }
+
+/* main */
 section {
     background-color: var(--color-section-bg);
+    max-width: 300px;
 }
+img {
+    width: 100%;
+    position: relative;
+}
+
+/* footer */
 footer {
     background-color: var(--color-footer-bg);
+    padding: 10px 0;
+
+}
+
+/* utility */
+.d-flex {
+    display: flex;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.small-container {
+    width: 100px;
+}
+.space-around {
+    justify-content: space-around;
+}
+.color-text {
+    color: white;
+}
+#heart-box {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
 }
