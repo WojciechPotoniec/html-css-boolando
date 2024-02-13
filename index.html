@@ -11,57 +11,137 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="css/style.css">
     <title>Boolando</title>
 </head>
 
 <body>
     <header>
-        <div class="d-flex space-between container">
-            <ul class="d-flex">
-                <li><a class="color-text" href="#"><strong>Donna</strong></a></li>
-                <li><a class="color-text" href="#"><strong>Uomo</strong></a></li>
-                <li><a class="color-text" href="#"><strong>Bambini</strong></a></li>
-            </ul>
-            <img class="small-container" src="img/boolean-logo.png" alt="Logo boolean">
-            <div>
-                <a class="color-text" href=""><i class="fa-regular fa-user"></i></a>
-                <a class="color-text" href=""><i class="fa-regular fa-heart"></i></a>
-                <a class="color-text" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+        <div class="d-fix">
+            <div class="d-flex space-between container">
+                <ul class="d-flex">
+                    <li><a class="color-text" href="#"><strong>Donna</strong></a></li>
+                    <li><a class="color-text" href="#"><strong>Uomo</strong></a></li>
+                    <li><a class="color-text" href="#"><strong>Bambini</strong></a></li>
+                </ul>
+                <img class="small-container" src="img/boolean-logo.png" alt="Logo boolean">
+                <div>
+                    <a class="color-text" href=""><i class="fa-regular fa-user"></i></a>
+                    <a class="color-text" href=""><i class="fa-regular fa-heart"></i></a>
+                    <a class="color-text" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
             </div>
         </div>
     </header>
-    <main class="container debug">
+    <main class="container d-flex">
         <section>
-            <div class="card-image">
-                <img src="img/1.webp" alt="">
+            <div class="card-image top">
+                <img class="main" src="img/1.webp" alt="">
+                <img class="secondary" src="img/1b.webp" alt="">
                 <div id="heart-box">
                     <span id="heart">&hearts;</span>
                 </div>
                 <div class="discount">-50&percnt;</div>
                 <div class="eco-green">Sostenibilità</div>
             </div>
-            <div>
+            <div class="bottom">
                 <span>Levi's</span>
                 <h3>RELAXED FIT TEE UNISEX</h3>
                 <strong><span class="red-text">14,99 &euro;</span></strong> <del>29,99 &euro;</del>
             </div>
         </section>
+        <section>
+            <div class="card-image top">
+                <img class="main" src="img/2.webp" alt="">
+                <img class="secondary" src="img/2b.webp" alt="">
+                <div class="heart-box">
+                <span class="heart">&hearts;</span>
+                </div>
+                <div class="discount">-30&percnt;</div>
+            </div>
+            <div class="bottom">
+                <span>Guess</span>
+                <h3>ROSES TEE</h3>
+                <strong><span class="red-text">20,99 &euro;</span></strong> <del>29,99 &euro;</del>
+            </div>
+        </section>
+        <section>
+            <div class="card-image top">
+                <img class="main" src="img/3.webp" alt="">
+                <img class="secondary" src="img/3b.webp" alt="">
+                <div class="heart-box">
+                    <span class="heart">&hearts;</span>
+                </div>
+                <div class="discount">-30&percnt;</div>
+            </div>
+            <div class="bottom">
+                <span>Come Zucchero Filato</span>
+                <h3>VOGLIA DI COLORI PASTELLO</h3>
+                <strong><span class="red-text">129,99 &euro;</span></strong> <del>184,99 &euro;</del>
+            </div>
+        </section>
+        <section>
+            <div class="card-image top">
+                <img class="main" src="img/4.webp" alt="">
+                <img class="secondary" src="img/4b.webp" alt="">
+                <div class="heart-box">
+                    <span class="heart">&hearts;</span>
+                </div>
+                <div class="discount">-50&percnt;</div>
+                <div class="eco-green">Sostenibilità</div>
+            </div>
+            <div class="bottom">
+                <span>Levi's</span>
+                <h3>TEE UNISEX</h3>
+                <strong><span class="red-text">14,99 &euro;</span></strong> <del>29,99 &euro;</del>
+            </div>
+        </section>
+        <section>
+            <div class="card-image top">
+                <img class="main" src="img/5.webp" alt="">
+                <img class="secondary" src="img/5b.webp" alt="">
+                <div class="heart-box">
+                    <span class="heart">&hearts;</span>
+                </div>
+            </div>
+            <div class="bottom">
+                <span>Maya Deluxe</span>
+                <h3>STRIPE BODICE</h3>
+                <strong><span class="red-text">99,99 &euro;</span></strong>
+            </div>
+        </section>
+        <section>
+            <div class="card-image top">
+                <img class="main" src="img/6.webp" alt="">
+                <img class="secondary" src="img/6b.webp" alt="">
+                <div class="heart-box">
+                    <span class="heart">&hearts;</span>
+                </div>
+                <div id="eco-green">Sostenibilità</div>
+            </div>
+            <div class="bottom">
+                <span>Esprit</span>
+                <h3>MAGLIONE - BLACK</h3>
+                <strong><span class="red-text">29,99 &euro;</span></strong>
+            </div>
+        </section>
     </main>
-    <footer class="container d-flex space-between">
-        <div>
-            <h4 class="color-text">Boolando s.r.l</h4>
-            <h6 class="color-text">Informazioni legali &nbsp;&nbsp;Informativa sulla privacy &nbsp;&nbsp;Diritto di
-                recesso</h6>
-        </div>
-        <div>
-            <h4 class="color-text">Trovaci anche su</h4>
-            <a href="#"><i class="fa-brands fa-square-twitter color-text"></i></a>
-            <a href="#"><i class="fa-brands fa-square-facebook color-text"></i></a>
-            <a href="#"><i class="fa-brands fa-square-instagram color-text"></i></a>
-            <a href="#"><i class="fa-brands fa-square-pinterest color-text"></i></a>
-            <a href="#"><i class="fa-brands fa-square-youtube color-text"></i></a>
+    <footer>
+        <div class="container d-flex space-between">
+            <div>
+                <h4 class="color-text">Boolando s.r.l</h4>
+                <h6 class="color-text">Informazioni legali &nbsp;&nbsp;Informativa sulla privacy &nbsp;&nbsp;Diritto di
+                    recesso</h6>
+                </div>
+                <div>
+                    <h4 class="color-text">Trovaci anche su</h4>
+                    <a href="#"><i class="fa-brands fa-square-twitter color-text"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook color-text"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram color-text"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-pinterest color-text"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-youtube color-text"></i></a>
+                </div>
         </div>
     </footer>
 </body>
