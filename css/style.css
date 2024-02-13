@@ -17,4 +17,16 @@
 }
 body {
     font-family: "Lato", sans-serif;
+    background-color: var(--color-main-bg);
+}
+
+/* header */
+header {
+    background-color: var(--color-header-bg);
+}
+section {
+    background-color: var(--color-section-bg);
+}
+footer {
+    background-color: var(--color-footer-bg);
 }
