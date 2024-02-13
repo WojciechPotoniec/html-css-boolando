@@ -9,6 +9,12 @@
 .debug {
     border: 1px solid black;
 }
+:root {
+    --color-header-bg: #ff6900;
+	--color-section-bg: #e7e7e5;
+	--color-main-bg: #ffffff;
+	--color-footer-bg: #1a1a1a;
+}
 body {
     font-family: "Lato", sans-serif;
 }
