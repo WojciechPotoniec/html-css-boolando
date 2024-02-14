@@ -19,31 +19,37 @@
 <body>
     <header>
         <div class="navigation">
-            <div class="d-flex space-between container">
+            <nav class="d-flex space-between container">
                 <ul class="d-flex">
                     <li><a class="color-text" href="#"><strong>Donna</strong></a></li>
                     <li><a class="color-text" href="#"><strong>Uomo</strong></a></li>
                     <li><a class="color-text" href="#"><strong>Bambini</strong></a></li>
                 </ul>
                 <img class="small-container" src="img/boolean-logo.png" alt="Logo boolean">
-                <div>
-                    <a class="color-text" href=""><i class="fa-regular fa-user"></i></a>
-                    <a class="color-text" href=""><i class="fa-regular fa-heart"></i></a>
-                    <a class="color-text" href=""><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-            </div>
+                <ul class= "d-flex"> <!-- Correzione semanticamente è più corretto usare una ul-->
+                    <li>
+                        <a class="color-text" href=""><i class="fa-regular fa-user"></i></a>
+                    </li>
+                    <li>
+                        <a class="color-text" href=""><i class="fa-regular fa-heart"></i></a>
+                    </li>
+                    <li>
+                        <a class="color-text" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main class="container d-flex">
         <section>
             <div class="card-image top">
-                <img class="main" src="img/1.webp" alt="">
-                <img class="secondary" src="img/1b.webp" alt="">
+                <img class="main" src="img/1.webp" alt="RELAXED FIT TEE UNISEX">
+                <img class="secondary" src="img/1b.webp" alt="RELAXED FIT TEE UNISEX">
                 <div class="heart-box">
                     <span class="heart">&hearts;</span>
                 </div>
-                <div class="discount">-50&percnt;</div>
-                <div class="eco-green">Sostenibilità</div>
+                <div class="badge-contrast">-50&percnt;</div>
+                <div class="badge">Sostenibilità</div>
             </div>
             <div class="bottom">
                 <span>Levi's</span>
@@ -58,7 +64,7 @@
                 <div class="heart-box">
                     <span class="heart">&hearts;</span>
                 </div>
-                <div class="discount">-30&percnt;</div>
+                <div class="badge-contrast">-30&percnt;</div>
             </div>
             <div class="bottom">
                 <span>Guess</span>
@@ -73,7 +79,7 @@
                 <div class="heart-box">
                     <span class="heart">&hearts;</span>
                 </div>
-                <div class="discount">-30&percnt;</div>
+                <div class="badge-contrast">-30&percnt;</div>
             </div>
             <div class="bottom">
                 <span>Come Zucchero Filato</span>
@@ -88,8 +94,8 @@
                 <div class="heart-box">
                     <span class="heart">&hearts;</span>
                 </div>
-                <div class="discount">-50&percnt;</div>
-                <div class="eco-green">Sostenibilità</div>
+                <div class="badge-contrast">-50&percnt;</div>
+                <div class="badge">Sostenibilità</div>
             </div>
             <div class="bottom">
                 <span>Levi's</span>
@@ -118,7 +124,7 @@
                 <div class="heart-box">
                     <span class="heart">&hearts;</span>
                 </div>
-                <div id="eco-green">Sostenibilità</div>
+                <div id="badge">Sostenibilità</div>
             </div>
             <div class="bottom">
                 <span>Esprit</span>
@@ -135,7 +141,7 @@
                     recesso</h6>
             </div>
             <div>
-                <h4 class="color-text">Trovaci anche su</h4>
+                <h5 class="color-text">Trovaci anche su</h5>
                 <a href="#"><i class="fa-brands fa-square-twitter color-text"></i></a>
                 <a href="#"><i class="fa-brands fa-square-facebook color-text"></i></a>
                 <a href="#"><i class="fa-brands fa-square-instagram color-text"></i></a>

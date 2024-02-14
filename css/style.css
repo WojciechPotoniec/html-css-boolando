@@ -39,6 +39,7 @@ header {
 .navigation {
     position: fixed;
     top: 0;
+    left: 0; /* correzione */
     width: 100%;
     padding: 20px 0;
     background-color: var(--color-header-bg);
@@ -50,7 +51,7 @@ main {
     flex-wrap: wrap;
 }
 section {
-    max-width: 400px;
+    width: calc(100% / 3); /* correzione */
 }
 .top {
     background-color: var(--color-section-bg);
@@ -64,17 +65,18 @@ section {
     position: relative;
 }
 img {
-    vertical-align: bottom;
+    display: block;
     width: 100%;
+    cursor: pointer;
 }
 img.secondary {
     display: none;
 }
 .top:hover img.main{
-    display:none;
+    display: none;
 }
 .top:hover img.secondary{
-    display:block;
+    display: block;
 }
 .heart-box {
     height: 40px;
@@ -84,6 +86,7 @@ img.secondary {
     top: 5px;
     right: 0px;
     font-size: 30px;
+    cursor: pointer;
 }
 .heart {
     position: relative;
@@ -93,7 +96,7 @@ img.secondary {
     color: red;
 }
 
-.discount {
+.badge-contrast {
     background-color: red;
     padding: 2px 6px;
     text-align: center;
@@ -101,7 +104,7 @@ img.secondary {
     position: absolute;
     bottom: 45px;
 }
-.eco-green {
+.badge {
     background-color: green;
     padding: 2px 6px;
     text-align: center;
@@ -110,7 +113,7 @@ img.secondary {
     bottom: 45px;
     left: 50px;
 }
-#eco-green {
+#badge {
     background-color: green;
     padding: 2px 6px;
     text-align: center;
@@ -134,7 +137,7 @@ footer {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0;
+    /* padding: 0;  correzione */
 }
 .small-container {
     width: 100px;
